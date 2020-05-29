@@ -9,8 +9,8 @@ vec3 convertToHDR(in vec3 color) {
 
   vec3 HDRImage;
 
-  vec3 overexposed = color * 1.8f;
-  vec3 underexposed = color / 1.5f;
+  vec3 overexposed = color * 1.9f;
+  vec3 underexposed = color / 1.6f;
 
   HDRImage = mix(underexposed, overexposed, color);
 
