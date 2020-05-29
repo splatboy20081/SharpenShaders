@@ -11,3 +11,4 @@ void main() {
 
   gl_FragData[0] = blockColor;
 }
+ 
